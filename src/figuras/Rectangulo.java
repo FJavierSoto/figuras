@@ -2,4 +2,15 @@ package figuras;
 
 public class Rectangulo {
 
+	double ancho, alto;
+
+	public Rectangulo(double ancho, double alto) {
+		super();
+		this.ancho = ancho;
+		this.alto = alto;
+	}
+	
+	public double getPerimetro() {
+		return this.alto*2 + this.ancho* 2; 
+	}
 }

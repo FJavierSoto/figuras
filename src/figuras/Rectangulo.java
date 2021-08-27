@@ -19,7 +19,8 @@ public class Rectangulo {
 	}
 
 	public double getArea(){
-		return return this.alto + this.alto }
+		return this.alto + this.alto;
+	}
 }
 	
 	
